@@ -107,9 +107,6 @@ const Header = ({ handleDrawerOpen, open, setMode, mode }) => {
         >
           <MenuIcon />
         </IconButton>
-        <Typography mr={5} variant="h6" noWrap component="div">
-          DASHBOARD
-        </Typography>
         <Search>
           <SearchIconWrapper>
             <SearchIcon />

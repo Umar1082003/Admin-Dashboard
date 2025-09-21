@@ -11,7 +11,8 @@ import Typography from "@mui/material/Typography";
 // components
 // @ts-ignore
 import Header from "./Components/header";
-import SlideBar from "./Components/SlideBar";
+// @ts-ignore
+import SideBar from "./Components/SideBar";
 import { useState } from "react";
 import { getDesignTokens } from "./Theme.jsx";
 import { Outlet } from "react-router-dom";
@@ -53,7 +54,7 @@ function App() {
           open={open}
           handleDrawerOpen={handleDrawerOpen}
         />
-        <SlideBar
+        <SideBar
           theme={theme}
           open={open}
           handleDrawerClose={handleDrawerClose}

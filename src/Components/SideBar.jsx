@@ -117,7 +117,7 @@ const Array3 = [
   { text: "Geography Chart", icon: <MapOutlinedIcon />, path: "/geography" },
 ];
 
-const SlideBar = ({ handleDrawerClose, open, theme }) => {
+const SideBar = ({ handleDrawerClose, open, theme }) => {
   let location = useLocation();
   const navigate = useNavigate();
   return (
@@ -344,4 +344,4 @@ const SlideBar = ({ handleDrawerClose, open, theme }) => {
   );
 };
 
-export default SlideBar;
+export default SideBar;

@@ -37,7 +37,8 @@ const router = createBrowserRouter(
       <Route path="line" element={<LineChart />} />
       <Route path="geography" element={<Geography />} />
     </Route>
-  )
+  ),
+  { basename: "/Admin-Dashboard" }
 );
 
 ReactDOM.createRoot(document.getElementById("root")).render(
